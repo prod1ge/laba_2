@@ -128,7 +128,7 @@ int main()
 
 
 
-    /*start = clock();
+    start = clock();
 
     matrix_multiply(a, b, c2, N);
 
@@ -140,7 +140,7 @@ int main()
 
     cout << "Достигнутая производительность " << 2.0 * (double)N * (double)N * N / elapsed_secs * 1.0e-6 << " MFlops.\n";
 
-    cout << "c2[10][20] = " << c2[10][20] << "\n";*/
+    cout << "c2[10][20] = " << c2[10][20] << "\n";
 
     // Reset c2 before the optimized multiplication
     for (int i = 0; i < N; ++i) {
